@@ -5,6 +5,11 @@
   "repository": "https://github.com/joelvitorniino/template-app-ts.git",
   "author": "joelvitorniino <joelprofessor13@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "dev": "ts-node src/app.ts",
+    "build": "tsc"
+    "start": "node dist/app.js"
+  },
   "devDependencies": {
     "@types/node": "^18.11.9",
     "ts-node": "^10.9.1",
